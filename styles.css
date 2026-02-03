@@ -73,14 +73,6 @@ body {
     padding: 70px 120px 134px 120px;
     text-align: center;
     margin-bottom: 116px;
-
-}
-
-.Hero .btn-group .second-btn h1, p, {
-    width: 1360px;
-    height: 295px;
-    gap: 16px;
-
 }
 .Hero p{
     color: #FFFFFF;
@@ -128,10 +120,7 @@ border-radius: 4px;
     width: 198px;
 height: 52;
 gap: 10px;
-padding-top: 12px;
-padding-right: 16px;
-padding-bottom: 12px;
-padding-left: 16px;
+padding:12px 16px;
 border-radius: 4px;
 border-width: 1px;
 
@@ -142,4 +131,71 @@ border-width: 1px;
     align-items: center;
     gap: 16px; 
     margin-top: 20px;
+}
+
+/*Note section*/
+
+.features {
+    text-align: center;
+    background-color: #fff;
+}
+
+.header-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+   
+}
+
+.header-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom:20px;
+}
+
+.card-container {
+    display: flex;         
+    justify-content: center; 
+    gap: 16px;           
+    flex-wrap: nowrap;   
+    margin: 0 auto;
+}
+.card {
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    padding: 24px;
+    width: 300px;
+    height: 200px;     
+    box-shadow: 0 10px 30px rgba(2, 2, 2, 0.03); 
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.icon-circle {
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+}
+
+.card h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382; 
+    line-height: 1.5;
 }
